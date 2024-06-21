@@ -1,0 +1,62 @@
+.courseCardContainer {
+    margin: 20px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .cardImageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .cardBody {
+    padding: 15px;
+  }
+  
+  .cardTitle {
+    margin-bottom: 10px;
+  }
+  
+  .cardText {
+    margin-bottom: 15px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .card-footer .btn-primary {
+    background-color: #00aaff; 
+    border-color: #00aaff; 
+    color: #fff; 
+  }
+  
+  .card-footer .btn-primary:hover {
+    background-color: #008ecc; 
+    border-color: #008ecc; 
+  }
+  

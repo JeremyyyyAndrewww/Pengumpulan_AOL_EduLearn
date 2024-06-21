@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background: linear-gradient(45deg, #00d0ff, #0099cc);
+    color: white;
+    padding: 50px 0;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.footerContainer {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Content p {
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+}
+
+.Content ul {
+    text-align: center;
+    padding: 0;
+}
+
+.footerList {
+    padding: 0;
+    list-style: none;
+}
+
+.footerList li {
+    padding: 7px 0;
+    position: relative;
+}
+
+.footerList li a {
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.footerList li a:hover {
+    opacity: 1;
+    color: #ffcc00;
+}
+
+.footerList li::before {
+    content: "";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #ffcc00;
+    transition: width 0.5s;
+}
+
+.footerList li:hover::before {
+    width: 50%;
+}
+
+.socialIcons {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0; /* Ensure margin is 0 to align properly */
+}
+
+.socialIcons li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.socialIcons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.socialIcons a:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+.bottomBar {
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bottomBar p {
+    margin: 0;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer {
+        margin: 10px 0;
+    }
+}

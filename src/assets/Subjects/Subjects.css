@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: poppins;
+}
+
+.subHeading{
+    letter-spacing: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cardContainer h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.cardContainer span{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.cardContainer {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.cardContainer h1 {
+    font-size: 2.2em;
+    background-color: #00d0ff;
+    color: white;
+    padding: 10px 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 100px 20px;
+    margin: 0px 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.more h2{
+    color: #252525;
+}
+
+.more p{
+    color: #252525;
+}
+
+.more h4{
+    color: #252525;
+}
+
+@media (min-width: 768px) {
+    .cardContainer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.accounting{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/accounting.webp");
+}
+
+.bahasa{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/bahasa.png");
+}
+
+.biology{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/biology.webp");
+}
+
+.chemistry{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/chemistry.jpg");
+}
+
+.civics{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/civics.webp");
+}
+
+.economy{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/economy.webp");
+}
+
+.english{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/english.png");
+}
+
+.geography{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/geography.jpg");
+}
+
+.history{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/history.jpg");
+}
+
+.physics{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/physics.jpg");
+}
+
+.programming{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/programming.jpg");
+}
+
+.arts{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000b3),url("/img/Cards/arts.jpg");
+}

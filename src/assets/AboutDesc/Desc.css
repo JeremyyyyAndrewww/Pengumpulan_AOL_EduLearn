@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.descContainer {
+    margin-top: 120px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.descTitle .aboutUs {
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    color: #004f77;
+    text-transform: uppercase;
+}
+
+.descTitle .learn {
+    font-size: 2.5em;
+    font-family: "Poppins", sans-serif;
+}
+
+.typeText {
+    color: #00aaff;
+    font-family: "Poppins", sans-serif;
+}
+
+.cursorStyle {
+    color: black;
+}
+
+.contentWrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.descContent {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.descContent p {
+    line-height: 1.8em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #333;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.joinPart {
+    margin-top: 20px;
+}
+
+.joinNowDesc {
+    font-size: 16px;
+    border: 2px solid #00aaff;
+    color: white;
+    background-color: #00aaff;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.3s all ease;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.joinNowDesc:hover {
+    background-color: white;
+    color: #00aaff;
+    box-shadow: 7px 7px 0 #004f77;
+}
+
+.descImg {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

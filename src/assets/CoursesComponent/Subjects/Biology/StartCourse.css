@@ -1,0 +1,46 @@
+/* StartCourse.css */
+
+.startCourseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    margin-top: 130px;
+}
+
+.startCourseHeading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.startCourseHeading h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.startCourseHeading h3 {
+    font-size: 24px;
+    color: #666;
+}
+
+.startCourseHeading .changeBlue {
+    color: #1e90ff;
+}
+
+/* Add some spacing between sections */
+.startCourseContainer > div {
+    margin-bottom: 20px;
+}
+
+/* Style adjustments for components inside StartCourse */
+.englishExercise,
+.englishVBL,
+.englishNote {
+    width: 100%;
+}

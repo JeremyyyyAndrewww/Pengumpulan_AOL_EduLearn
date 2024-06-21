@@ -1,0 +1,53 @@
+.exerciseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exerciseHeading h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.exercises {
+    width: 100%;
+    max-width: 800px;
+}
+
+.exercise {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}

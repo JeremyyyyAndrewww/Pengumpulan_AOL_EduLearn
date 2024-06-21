@@ -1,0 +1,101 @@
+.premiumContainer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.premiumHeading {
+    margin-bottom: 30px;
+}
+
+.premiumHeading h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.premiumHeading h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.premiumHeading h4 {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.premiumCardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.premiumCard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.premiumText {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.premiumText:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.premiumText h3 {
+    font-size: 2em;
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.premiumText span {
+    display: block;
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.premiumJoin {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.premiumJoin a {
+    text-decoration: none;
+    color: white;
+}
+
+.premiumJoin:hover {
+    background-color: #008ecc;
+}
+
+.premiumText p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+}

@@ -1,0 +1,144 @@
+.choiceContainer {
+  text-align: center;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.choiceHeading h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.choiceHeading h3 {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.changeBlue {
+  color: #00aaff;
+}
+
+.subjectClassContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.subjectBox {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  height: 150px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.subjectBox:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+.subjectBox h3 {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 5px;
+  z-index: 1;
+}
+
+.subjectBox span {
+  color: #ddd;
+  font-size: 1em;
+  z-index: 1;
+}
+
+.subjectBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.backButton {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #008ecc;
+}
+
+.subBox1 {
+  background: url("/img/EducationLevel/elementary.png") center/cover no-repeat;
+}
+
+.subBox2 {
+  background: url("/img/EducationLevel/MiddleSchool.jpg") center/cover no-repeat;
+}
+
+.subBox3 {
+  background: url("/img/EducationLevel/HighSchool.png") center/cover no-repeat;
+}
+
+
+.materialsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.materialBox {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.materialBox:hover {
+  background-color: #e2e6ea;
+  transform: translateY(-5px);
+}
+
+.materialBox h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.materialBox p {
+  font-size: 1em;
+  color: #666;
+}

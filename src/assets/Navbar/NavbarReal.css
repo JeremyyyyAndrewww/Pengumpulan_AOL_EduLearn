@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.navContainer {
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: background 0.75s, box-shadow 0.75s;
+}
+
+.navContainer ul {
+    display: flex;
+    align-items: center;
+}
+
+.navContainer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navText {
+    position: relative;
+}
+
+.navText a {
+    padding: 5px 8px;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none; 
+    color: white;
+}
+
+.navText a:hover {
+    color: #00d0ff;
+    transform: scale(1.1);
+}
+
+.navText a:after {
+    content: "";
+    position: absolute;
+    background-color: #00d0ff;
+    height: 3px;
+    border-radius: 10px;
+    width: 100%;
+    left: 0;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.75s ease;
+}
+
+.navText a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.button {
+    background-color: #00aed5;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #007b9e;
+    transform: scale(1.05);
+}
+
+.dark-nav {
+    background-color: white;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-nav a{
+    color: black;
+}
+
+.dark-nav h1 {
+    color: black;
+}
+
+
+.dark-nav .button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .navContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navContainer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navContainer ul li {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+}
